@@ -2,6 +2,12 @@
 
 Welcome to the JavaScript interview preparation repository! Here you'll find a curated collection of essential JavaScript concepts, along with common interview questions and their explanations.
 
+## Try It Online
+
+You can try out the JavaScript code snippets provided in this README.md file directly in your browser using the online compiler below.
+
+[![Open in CodePen](https://img.shields.io/badge/Open_in-CodePen-000000?style=for-the-badge&logo=codepen)](https://codepen.io/pen?template=)
+
 ## Table of Contents
 
 1. [Introduction to JavaScript](#introduction-to-javascript)
@@ -253,4 +259,6 @@ JavaScript is a scripting language commonly used to create interactive web pages
       const apple = new Product('Apple', 1);
       console.log(apple); // Logs { name: 'Apple', price: 1 }
       ```
+
+      
 
