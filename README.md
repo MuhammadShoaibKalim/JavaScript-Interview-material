@@ -258,11 +258,69 @@ JavaScript is a scripting language commonly used to create interactive web pages
 
       const apple = new Product('Apple', 1);
       console.log(apple); // Logs { name: 'Apple', price: 1 }
+     ```
 
-      
+     # ES6 Features and JavaScript Concepts
+     
+18. **ES6 Features**
+- Let and const keywords.
+- Arrow functions.
+- Multi-line Strings.
+- The destructuring assignment.
+- Enhanced object literals.
+- Promises.
+
+19. **Difference between var, const, and let**
+- Variables declared with let and const are block-scoped; Variables declared with var are globally-scoped or function-scoped.
+- var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared.
+- var can be hoisted to the top of their scope. Where var variables are initialised as undefined, let and const variables are not initialised(Temporary Dead Zone, TDZ).
+- While var and let can be declared without being initialised, const must be initialised during declaration.
+
+ 20. **Promises and Async-Await**
+- Promises enable asynchronous programming in JavaScript, allowing a program to call a function with the expectation that it will return a result for further computation.
+- Async-await is syntactic sugar for promises, simplifying asynchronous programming and preventing callback hell.
+
+```javascript
+const myPromise = new Promise((resolve, reject) => { 
+    // promise condition
+});
+```
+
+ 21. **How does JavaScript maintain concurrency?**
+- Event Loop.
+- Micro & Macro Queue.
+- Callback.
+- Thread Pool & Clustering (Multi-Threading).
+
+22. **What is a callback and how does it work behind the scene?**
+- The callback is possible only because JavaScript supports the first-class function.
+- A function that has passed as an argument to another function or it can be executed in that other function is called a callback.
+- In Node.js, it consists of 4 default threads that are responsible for maintaining the main stack and other queues, most asynchronous functions call other asynchronous functions and then call the callback. You can think of it as a chain of functions and callbacks. All asynchronous and IO operations are directly not handled by the main thread, All callbacks and asynchronous calls have been handled by the other queue which presents in the JS engine.
+
+23. **How many ways do we have for declaring a function and how are they different from each other?**
+- A function declaration has made of a function keyword, followed by an obligatory function name, a list of parameters in a pair of parenthesis.
+- Shorthand method definition can be possible to use in a method declaration on object literals and ES2015 classes.
+- An Arrow function is defined using a pair of parenthesis that contains the list of parameters. Followed by a fat arrow => and a pair of curly braces that delimits the body statements.
+- In a function expression, you assign a function to a variable.
+- A function can be dynamically created using the Function constructor, but it suffers from security and performance issues and is not advisable to use.
+
+24. **Output of Code**
+
+```javascript
+x = 5;
+var x;
+(function fun() { 
+    {
+        let x = 1;
+        x++;
+        console.log(x);
+    }
+    console.log(x);
+})();
+```      
       
     
-      ### Coding Exercise
+### Coding Exercise
 
 #### 1. What is the output of below code
 
