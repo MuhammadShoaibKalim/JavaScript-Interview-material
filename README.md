@@ -317,9 +317,33 @@ var x;
     }
     console.log(x);
 })();
-```      
-      
+```
+25.  **What is the difference between Java and JavaScript?**
     
+     Java and JavaScript are unrelated programming languages. Java is an object-based, strongly typed language. It's used in app development and runs on a virtual machine.
+     It's also known for block scoping and thread- based concurrency, which consumes more memory. In contrast, JavaScript is an object-oriented, dynamically typed language.
+     JavaScript is used for web applications in browsers and Node.js environments. It utilizes function-scoping event-based concurrency and is more memory-efficient. This
+      makes it ideal for web pages. The key differences lie in typing, scoping, concurrency models, and memory usage.
+     
+      
+27. **What is is JSON in JavaScript**
+    
+      Javascript Object Notation (JSON) is a standard text-based format in web applications. Its function is to represent structured data using JavaScript object syntax.
+      It transmits data between a server and a client, enabling seamless data display on web pages. JSON is a text file with a .json extension and an 'application/json'
+      MIME type, making it ideal for network data transfer.In practice, JSON operates through two key processes: parsing and stringification. Parsing involves converting
+      a string into a native object using JSON.parse(text). Stringification is the reverse. It transforms a native object into a string with JSON.stringify(object) for
+      network transmission. This dual functionality makes 
+      JSON a versatile tool in web development.
+    
+    
+29.   **Explain how cookies work in JavaScript?**
+    
+       Cookies in JavaScript function as a way to store user information (like usernames) between web sessions. When a server sends data to a visitor's browser, the data may
+       include a cookie. If the browser accepts this okie, it's saved as a plain text file on the visitor's hard drive. Upon later visits to the same site, the browser returns
+       this cookie to the server. This process lows the server to retrieve the stored formation to enable a seamless user experience.
+
+      
+      
 ### Coding Exercise
 
 #### 1. What is the output of below code
