@@ -342,7 +342,27 @@ var x;
        include a cookie. If the browser accepts this okie, it's saved as a plain text file on the visitor's hard drive. Upon later visits to the same site, the browser returns
        this cookie to the server. This process lows the server to retrieve the stored formation to enable a seamless user experience.
 
-      
+30. **What is the primary goal of React Fiber, and how does it aim to achieve it?**
+
+      The primary goal of React Fiber is to increase React's suitability for areas like animation, layout, and gestures by enabling incremental rendering. This means splitting rendering work into chunks spread out over 
+       multiple frames. Additionally, Fiber aims to introduce features such as pausing, aborting, or reusing work as new updates come in, assigning priority to different types of updates, and implementing newconcurrency 
+      primitives.
+
+ 31 **What is reconciliation in React, and why is it essential?**
+
+ Reconciliation is the algorithm used by React to diff one tree with another, determining which parts need to be changed. It's crucial because it allows React to update the user interface efficiently by computing only the necessary changes instead of re-rendering the entire application on every update.
+
+32. **How does React separate reconciliation from rendering, and why is this separation important?**
+
+React separates reconciliation, which computes which parts of the tree have changed, from rendering, which actually updates the rendered application. This separation allows React to support various rendering environments, such as the DOM and React Native, while using the same reconciler. It also enables optimizations and flexibility in scheduling updates, contributing to a smoother user experience.
+
+33. **What is scheduling in React, and why does React use a pull-based approach?**
+
+Scheduling in React refers to the process of determining when work should be performed, prioritizing different types of updates. React utilizes a pull-based approach where computations can be delayed until necessary, allowing the framework to make smart decisions about when to execute work based on factors like user interactions and frame rates. This approach avoids unnecessary work and optimizes performance by deferring updates until they are needed.
+
+ 34. **What is a fiber in React Fiber's architecture, and why is it essential?**
+
+Answer: In React Fiber, a fiber represents a unit of work, allowing React to break rendering work into incremental units for better control over scheduling and performance. Fibers enable React to pause, resume, prioritize, and reuse work, contributing to features like incremental rendering and concurrency. They serve as virtual stack frames, allowing React to optimize rendering for user interfaces effectively.    
       
 ### Coding Exercise
 
