@@ -354,15 +354,98 @@ var x;
 
 32. **How does React separate reconciliation from rendering, and why is this separation important?**
 
-React separates reconciliation, which computes which parts of the tree have changed, from rendering, which actually updates the rendered application. This separation allows React to support various rendering environments, such as the DOM and React Native, while using the same reconciler. It also enables optimizations and flexibility in scheduling updates, contributing to a smoother user experience.
+React separates reconciliation, which computes which parts of the tree have changed, from rendering, which updates the rendered application. This separation allows React to support various rendering environments, such as the DOM and React Native while using the same reconciler. It also enables optimizations and flexibility in scheduling updates, contributing to a smoother user experience.
 
 33. **What is scheduling in React, and why does React use a pull-based approach?**
 
-Scheduling in React refers to the process of determining when work should be performed, prioritizing different types of updates. React utilizes a pull-based approach where computations can be delayed until necessary, allowing the framework to make smart decisions about when to execute work based on factors like user interactions and frame rates. This approach avoids unnecessary work and optimizes performance by deferring updates until they are needed.
+Scheduling in React refers to the process of determining when work should be performed, and prioritizing different types of updates. React utilizes a pull-based approach where computations can be delayed until necessary, allowing the framework to make smart decisions about when to execute work based on factors like user interactions and frame rates. This approach avoids unnecessary work and optimizes performance by deferring updates until they are needed.
 
  34. **What is a fiber in React Fiber's architecture, and why is it essential?**
 
 Answer: In React Fiber, a fiber represents a unit of work, allowing React to break rendering work into incremental units for better control over scheduling and performance. Fibers enable React to pause, resume, prioritize, and reuse work, contributing to features like incremental rendering and concurrency. They serve as virtual stack frames, allowing React to optimize rendering for user interfaces effectively.    
+
+
+35. **What are the common JavaScript data types?**
+    
+When answering this question, give an example for each data type if possible.
+Example: Common JavaScript data types are boolean, number, object, string and undefined. These can be divided into three categories of primitive, composite and special.
+
+
+36. **How do a confirmation box and alert box vary?**
+    
+JS interviewers ask this question to know how effectively could you create code that simplifies the message for the user.
+Example: Both these boxes are used to communicate a message to the user. While the alert box has only one option to click on (OK), the confirmation box has two (OK and CANCEL).
+
+
+37. **Name the three pop-up boxes that exist in JS**
+    
+This question indicates your ability to create interactive and followable interfaces for users.
+Example: The three pop-up boxes in JS include Alert, Confirm, and Prompt.
+
+
+38. **What are two ways to read and write a file using JS?**
+    
+This JS interview question helps analyze your basic usability metric with the programming language.
+Example: A file can be read or written on JS through either a webpage and Active X objects, or JS extensions.
+
+
+39. **What exactly are global variables?**
+    
+This tests the candidate's insights on reducing the usage of local variables and saving up on memory.
+Example: If the var keyword, which is used to declare a locale object or variable, is omitted, then a global variable is declared. Additionally, 
+global variables exist all across the code to eliminate any limitations.
+
+
+40. **What does negative infinity mean in JS?**
+
+    
+Despite being more of a value-related answer, negative infinity also helps in looping.
+Example: When any negative number is divided by zero, you get a JS number called negative infinity. Also, when divided by itself, it returns NaN.
+
+
+41. **What is the NaN property in JavaScript?**
+
+    
+NaN stands for “not a number” and can help identify whether a value is a valid number or not. For example, finding the square root of a negative number returns NaN.
+Example: NaN represents non-number values. Simply put, it helps identify invalid numbers.
+
+
+42. **Name the three looping structures in JS**
+
+    
+Loops are a highly utilized feature in any programming language and indicate the coder's ability to cut down longer codes into shorter ones.
+Example: For, While and Do-while are the three looping structures.
+
+
+43. **What would be the output of 5+9+”2” in JS?**
+
+    
+This question tests your idea of how numeric calculations occur in JS programming.
+Example: As 2 is placed within a string, it would be concatenated to the sum of 5+9. Thus, the output is 142.
+
+44. **What is DOM in JavaScript?**
+
+    
+DOM helps in managing web documents through code. Using DOM in JS, the coder gets access to the components of a webpage.
+Example: Document Object Model is automatically created by the web browser once the page has loaded. Each and every element of the webpage can be accessed, and modified from the DOM.
+
+
+45. **What are the window.onload and onDocumentReady features?**
+Both these functions are related to the loading of the webpage and code. Explain your answers in terms of which feature manipulates the code quicker.
+Example: While onDocumentReady downloads the code right before the DOM is ready, it permits the coder to manipulate the code early. Whereas, window.onload does not begin till all webpage information isn't ready. Moreover, it causes delays before the code is run.
+
+
+47. **What are the 3 types of errors in JavaScript?**
+
+    
+These errors are automatically generated and categorised into three types. If you can portray your code-resolving abilities with a diversified knowledge of how these errors arise then you would be able to create a good impression.
+Example: The three error types in JS are Load-time, Runtime and Logic errors. Any of these errors would interrupt the smooth functioning of the program.
+
+48. **Name the two basic groups of data types in JS**
+    
+This explains your flexibility when it comes to using a large variety and number of variables.
+Example: The two basic groups of data types in JS are Primitive and Reference types. Primitive types represent only number and Boolean types, whereas reference types consist of more complex data types such as strings and dates.
+
       
 ### Coding Exercise
 
