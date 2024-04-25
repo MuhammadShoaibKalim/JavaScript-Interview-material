@@ -446,10 +446,44 @@ Example: The three error types in JS are Load-time, Runtime and Logic errors. An
 This explains your flexibility when it comes to using a large variety and number of variables.
 Example: The two basic groups of data types in JS are Primitive and Reference types. Primitive types represent only number and Boolean types, whereas reference types consist of more complex data types such as strings and dates.
 
+49. **Explain the event delegation model in JavaScript.**
+Event delegation is a technique involving adding a single event listener to a parent element that catches all events of a specific type from its child elements.
+This is useful for handling dynamically added elements or reducing the number of event listeners.
+
+```document.getElementById("parent").addEventListener("click", function(e) {
+  if (e.target && e.target.nodeName === "LI") {
+    console.log("List item clicked!");
+  }
+});
+```
+
+50. **How do you implement inheritance in JavaScript?**
+
+Inheritance in JavaScript can be implemented using prototype chaining, where an object inherits properties and methods from another object.
+Example:
+
+```function Animal(name) {
+  this.name = name;
+}
+Animal.prototype.speak = function() {
+  console.log(this.name + ' makes a noise.');
+}
+
+function Dog(name) {
+  Animal.call(this, name);
+}
+Dog.prototype = Object.create(Animal.prototype);
+Dog.prototype.constructor = Dog;
+
+const dog = new Dog('Rex');
+dog.speak(); // Rex makes a noise.
+```
+
+
       
 ### Coding Exercise
 
-#### 1. What is the output of below code
+#### 1. What is the output of the below code
 
 ```javascript
 var car = new Vehicle("Honda", "white", "2010", "UK");
