@@ -19,6 +19,128 @@ JavaScript is a scripting language commonly used to create interactive web pages
 
 ## Common JavaScript Interview Questions
 
+```//////////Context Api ///////
+
+
+import React from "react";
+import UserContextProvider from "./context/UserContextProvider";
+import Profile from "./components/Profile";
+import Login from "./components/Login";
+
+
+function App() {
+   
+  return (
+    <UserContextProvider>
+        <h2>Hello User context api</h2>
+        <Login/>
+        <Profile/>
+       
+    </UserContextProvider>
+  )
+}
+
+export default App;
+
+
+//////////////////////////////////////////////////////
+
+import React from "react";
+import UserContext from "./UserContextApi";
+
+
+const UserContextProvider = ({children}) =>{
+    const [user, setUser] = React.useState(null);
+
+    return(
+      <UserContext.Provider value={{user, setUser}}>
+         <children/>
+      </UserContext.Provider>
+    );
+}
+
+export default UserContextProvider;
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+import React from "react";
+import UserContext from "./UserContextApi";
+
+const UserContextProvider = ({ children }) => {
+  const [user, setUser] = React.useState(null);
+
+  return (
+    <UserContext.Provider value={{ user, setUser }}>
+      {children}
+    </UserContext.Provider>
+  );
+};
+
+export default UserContextProvider;
+
+=====================================================
+
+import React, { useContext } from 'react';
+import UserContext from '../context/UserContextApi';
+
+const Profile = () => {
+  const { user } = useContext(UserContext);
+
+  if (!user) {
+    return <div>Please login to continue.</div>;
+  } else {
+    return <div>Welcome {user.username}</div>;
+  }
+};
+
+export default Profile;
+
+
+====================================================
+import React, { useContext, useState } from 'react';
+import UserContext from '../context/UserContextApi';
+
+const Login = () => {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const { setUser } = useContext(UserContext);
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    setUser({ username, password });
+  };
+
+  return (
+    <div>
+      <h1>Login</h1>
+      <input
+        type='text'
+        placeholder='Username'
+        value={username}
+        onChange={(e) => setUsername(e.target.value)}
+      />
+      <input
+        type='password'
+        placeholder='Password'
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      />
+      <button onClick={handleClick}>Submit</button>
+    </div>
+  );
+};
+
+export default Login;
+
+==============================================================================================
+import React from "react";
+
+const userContext =React.createElement();
+export default userContext;
+
+==============================================================================================
+```
 1. **Difference between == and ===**
    - `==` is used for value equality, while `===` is used for both value and type equality.
    - `==` performs type coercion, converting the types of operands to match, while `===` requires both operands to have the same type without coercion.
