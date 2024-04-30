@@ -17,6 +17,34 @@ You can try out the JavaScript code snippets provided in this README.md file dir
 
 JavaScript is a scripting language commonly used to create interactive web pages. It works alongside HTML and CSS to provide dynamic functionality and enhanced user experience.
 
+```**Interview asked Question**
+
+Basic:
+1- Can you explain the difference between HTML and CSS?
+
+2How do you handle responsive design in web development?
+
+3-What is JavaScript, and what are its main features?
+
+4-What are the advantages of using Node.js?
+
+5-What is the difference between GET and POST requests?
+
+Medium:
+6. What is a thread pool and which library handles it in Node.js??
+
+7-How do you manage state in React?
+
+8-Explain the concept of RESTful API.
+
+9-How do you handle errors in JavaScript?
+
+10- Can you demonstrate your experience with database management in Mongo DB?
+
+Hard:
+Scenario Question: Imagine you need to build a real-time chat application. How would you approach designing the backend architecture?
+```
+
 ## Common JavaScript Interview Questions
 
 ```//////////Context Api ///////
