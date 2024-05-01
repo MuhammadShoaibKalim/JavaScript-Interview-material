@@ -45,6 +45,123 @@ Hard:
 Scenario Question: Imagine you need to build a real-time chat application. How would you approach designing the backend architecture?
 ```
 
+```
+**Interview Question LinkedIn Resources asked**
+
+120+ React interview questions to practice to get hired in your next interview
+
+Save the post and reshare the post with other devs to help.
+
+1. What is "key" prop and what is the benefit of using it in arrays of elements?
+
+2. What is the purpose of callback function as an argument of setState()?
+
+3. What is the purpose of using super constructor with props argument?
+
+4. Which is preferred option with in callback refs and findDOMNode()?
+
+5. What is the difference between createElement and cloneElement?
+
+6. Why you get "Router may have only one child element" warning?
+
+7. Why you get "Router may have only one child element" warning?
+
+8. What is the difference between HTML and React event handling?
+
+9. What is the difference between Shadow DOM and Virtual DOM?
+
+10. How to pass params to history.push method in React Router v4?
+
+11. How to pass params to history.push method in React Router v4?
+
+12. How do you programmatically navigate using React router v4?
+
+13. How do you programmatically navigate using React router v4?
+
+14. When to use a Class Component over a Function Component?
+
+15. When to use a Class Component over a Function Component?
+
+16. What is the purpose of push and replace methods of history?
+
+17. What is the purpose of push and replace methods of history?
+
+18. What is the difference between Element and Component?
+
+19. What is the difference between Element and Component?
+
+20. How to pass a parameter to an event handler or callback?
+
+21. How to bind methods or event handlers in JSX callbacks?
+
+22. What are the different phases of component lifecycle?
+
+23. How React Router is different from history library?
+
+24. How React Router is different from history library?
+
+25. How to create props proxy for HOC component?
+
+26. What is the difference between state and props?
+
+27. How to get query parameters in React Router v4
+
+28. How to get query parameters in React Router v4
+
+29. How to implement default or NotFound page?
+
+30. How to implement default or NotFound page?
+
+31. What are the <Router> components of React Router v4?
+
+32. What are the <Router> components of React Router v4?
+
+33. Why should we not update the state directly?
+
+34. What are the lifecycle methods of React?
+
+35. What are inline conditional expressions?
+
+36. How to get history on React Router v4?
+
+37. How to get history on React Router v4?
+
+38. What are Higher-Order components?
+
+39. What is the main goal of React Fiber?
+
+40. How to create components in React?
+
+41. What are the lifecycle methods of React?
+
+42. What are uncontrolled components?
+
+43. What are synthetic events in React?
+
+44. What are controlled components?
+
+45. How to write comments in React?
+
+46. What is Lifting State Up in React?
+
+47. What are Pure Components?
+
+48. What are Pure Components?
+
+49. Why are String Refs legacy?
+
+50. How Virtual DOM works?
+
+51. What are props in React?
+
+52. What is the use of refs?
+
+```
+
+
+
+
+
 ## Common JavaScript Interview Questions
 
 ```//////////Context Api ///////
