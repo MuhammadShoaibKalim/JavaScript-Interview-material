@@ -21,6 +21,7 @@ JavaScript is a scripting language commonly used to create interactive web pages
 **Interview asked Question**
 
 ```
+
 Basic:
 1- Can you explain the difference between HTML and CSS?
 
@@ -45,12 +46,14 @@ Medium:
 
 Hard:
 Scenario Question: Imagine you need to build a real-time chat application. How would you approach designing the backend architecture?
+
 ```
 
 **Interview Question LinkedIn Resources asked**
 
 ```
-120+ React interview questions to practice to get hired in your next interview
+
+**120+ React interview questions to practice to get hired in your next interview**
 
 Save the post and reshare the post with other devs to help.
 
