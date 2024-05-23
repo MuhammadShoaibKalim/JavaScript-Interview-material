@@ -1,4 +1,4 @@
-//variables Day #01
+//variables 
 
 /*
 Memory space mein store karny user ki details ko 
@@ -40,11 +40,11 @@ console.log(account_password);
 
 /*
 new version mein likhny k liy 
-treat all js code as newer version
+treat all js code as a newer version
 
 
 js ka engine browser k andar chupa hoa h so we use 
-and write code in browser.
+and write code in the browser.
 
 coding mein readability is important 
 
@@ -55,7 +55,7 @@ but ecma mein parhny k liy jein ..aur ye standard ko dakhein.
 
 //coding mein readability is important  
 //ye achi chez nhe h
-console.log('hell'); console.log("jee");
+console.log('hello'); console.log("jee");
 
 
 //alert statement
@@ -76,7 +76,7 @@ let isGood = false;
 
 // 5. Object 
 
-// 6. Null   aik type ka object h
+// 6. Null aik type ka object h
 //standalone value h 
 //empty value ki representation.
 
@@ -93,7 +93,7 @@ let id = null;    //tu ye empty hi rhy ga.
 
 console.log(typeof age);  //it will tell you type which one is
 -------------------------------------------------Data Types Conversion------------------------------------------
-//Datatype conversion confusion  Day 01
+//Datatype conversion confusion 
 
 let score = 33;
 console.log(" The type of score is :", typeof score);
