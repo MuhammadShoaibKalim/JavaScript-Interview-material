@@ -9,6 +9,7 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // console.log(fruits.toString());
 
 
+
 // 02: Join Arrays
 // join() methods behave as like toString(), but in addition it we can add separator between strings
 // console.log(fruits.join(" * "));
@@ -34,7 +35,7 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 // 06: Js Array unshift()
 // unshift() add new element into the array and return new array
-// console.log(fruits.unshift("Kiwi"));
+// console.log(fruits.unshift(" apple "));
 // console.log(fruits);
 
 
