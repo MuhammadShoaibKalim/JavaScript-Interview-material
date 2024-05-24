@@ -1,15 +1,14 @@
-// Day 02  06-04-2024
 
 /*
 Memory  types: 
 
 01. Stack  (primitive )
-Mean to say when we do any changes in a value of a
-variable then it will change in copy of th value 
+Mean to say when we make any changes in the value of a
+the variable then it will change in the copy of  the value 
 not original value.
 
 
-02. Heap (Non primitive)
+02. Heap (Non-primitive)
 Mean to say when we do any changes in a value of a
 variable then it will change in directly the original value.
 
@@ -91,7 +90,7 @@ console.log(Math.min(12, 13, 14, -1, 16, 17, 18, 19, 20));
 //Day 02 Date and Time
 
 /*
-avaScript Date objects represent a single moment 
+Javascript Date objects represent a single moment 
 n time in a platform-independent format. Date objects 
 encapsulate an integral number that represents 
 milliseconds since the midnight at the beginning 
@@ -139,6 +138,7 @@ console.log("This will show month :",myDate.getMonth()) //yaha par hum +1 karty 
 
 console.log("This will show minutes:",myDate.getMinutes())
 console.log("This will show full year :",myDate.getFullYear());
+
 
 console.log("This will show world timezone :",myDate.getTimezoneOffset());
 
