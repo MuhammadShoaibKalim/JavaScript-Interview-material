@@ -155,8 +155,8 @@ let str2 = " Kalim " ;
 console.log(str1 + str2 );
 
 console.log("2" + 33 + "11");
-console.log(2 + 33 + "11");
-console.log("25" + 33 + "11");
+console.log(2 + 33 + " 11 ");
+console.log(" 25 " + 33 + " 11 ");
 
 console.log(7 * 3 + 22 - 11 % 14);  //This is not good way.
 console.log((7 * 3)  + 22 - 11 % 14);  //This is  good way.
@@ -166,7 +166,7 @@ console.log((7 * 3)  + 22 - 11 % 14);  //This is  good way.
 //environment
 
 console.log(true); //This will give true/1
-console.log(+true); //Also this 
+console.log(+true); //Also give true 
 
 console.log(+ "");  //false or 0
 console.log(!"");  //true
@@ -216,7 +216,7 @@ console.log(undefined===0);  //false strictly check karta h
 console.log("2"===2); //false
 console.log(2===2); //true
 
-// Day 01 
+
 
 /*
 
@@ -228,7 +228,7 @@ on the variable's value at the time.
 Memory mein data ko kis trah rakha aur access kia jata h:
 
 1. primitive 
-It is called by value and give a copy of original data from memory 
+It is called by value and gives a copy of original data from memory 
 as a reference to the original.
 string, null, boolean, undefined, number,  symbol(uniqueness), 
 bigint(bari values)
