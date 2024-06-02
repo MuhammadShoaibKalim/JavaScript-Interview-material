@@ -13,7 +13,7 @@ You can try out the JavaScript code snippets provided in this README.md file dir
 1. [Introduction to JavaScript](#introduction-to-javascript)
 2. [Common JavaScript Interview Questions](#common-javascript-interview-questions)
 
-## Introduction to JavaScript
+## Introduction to JavaScript hello
 
 JavaScript is a scripting language commonly used to create interactive web pages. It works alongside HTML and CSS to provide dynamic functionality and enhanced user experience.
 
