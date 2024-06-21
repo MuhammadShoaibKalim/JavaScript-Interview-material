@@ -51,6 +51,8 @@ Scenario Question: Imagine you need to build a real-time chat application. How w
 
 **Interview Question LinkedIn Resources asked**
 
+
+
 ```
 
 **120+ React interview questions to practice to get hired in your next interview**
@@ -201,7 +203,7 @@ The patterns covered here will help you solve most questions during your intervi
 28. Implement a promisify function that allows the original function to override the return value.
 29. Implement a function to deserialize a JSON string.
 30. Implement a function to convert all the keys in an object to camel case.
-31. Implement a function to simulate LRU(Least Recently Used) cache
+31. Implement a function to simulate LRU(Least Recently Used) cache(important)
 
 
 ```
