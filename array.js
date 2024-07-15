@@ -5,8 +5,8 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 // 01: Arrays to String
 // We can can convert array into string
-// console.log(arr.toString());
-// console.log(fruits.toString());
+console.log(arr.toString());
+console.log(fruits.toString());
 
 
 
