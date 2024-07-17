@@ -45,4 +45,3 @@
  
     // value1=897;
     // console.log(value);     
-    :arrow_upper_right:
