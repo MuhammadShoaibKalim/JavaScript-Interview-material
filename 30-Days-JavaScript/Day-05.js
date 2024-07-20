@@ -29,16 +29,40 @@
               }
                  max_number();
                  */
-               //Activity04  concat two string an show the result.  
-                  
-
+               //Activity04  concat two string and show the result.  
+                 /*  string1="Muhammad Shoaib kalim";
+                   string2="software Engineer";        
+               function concat_function() {
+                            console.log(`This laptop is belone to ${string1} and who is ${string2} soon.(INSHALLAH)`);
+                       }
+                        concat_function();*/
 //--------------Activity03 Arrow Function --------------------------------------
                //Activity05  calculate the sum of two number
+                          /*
+                          let number1=13;
+                          let number2=14;
+                       const sum=()=> {
+                             console.log(number1+number2);
+                       }
+                       sum();
+
+                       */
+                          
                //Activity06  check if a string contains char and show bool value
-                
+              /*
+               const isStringContainsChar = (str, char) => {
+                return str.includes(char);
+            };
+            
+            const myString = "Hello, World!";
+            const myChar = "o";
+            
+            console.log(isStringContainsChar(myString, myChar)); // Outputs: true
+            ;*/
 
 //--------------Activity04 Function Parameters and Default values---------------
                //Activity07  Take two parameters and product of them to show result
+              
                //Activity08  take person name and age show greetings msg.
                 
 
