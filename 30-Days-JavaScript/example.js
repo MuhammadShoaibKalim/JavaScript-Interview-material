@@ -1,1 +1,0 @@
-console.log("A 30-day JS code practice...");
