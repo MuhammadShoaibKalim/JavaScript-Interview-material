@@ -26,10 +26,10 @@ arr2.forEach(element => {
 //Map 
 
 
-// const map = new Map();
+const map = new Map();
 
-// map.set("name", "Jabeen");
-// map.set ("id", 123);
+map.set("name", "Jabeen");
+map.set ("id", 123);
 
 // // console.log(map.get("id"));
 // // console.log(map.size);
