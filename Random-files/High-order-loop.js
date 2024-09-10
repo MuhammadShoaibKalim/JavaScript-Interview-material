@@ -31,8 +31,8 @@ const map = new Map();
 map.set("name", "Jabeen");
 map.set ("id", 123);
 
-// // console.log(map.get("id"));
-// // console.log(map.size);
+// console.log(map.get("id"));
+// console.log(map.size);
 
 // map.set("email", "email@example.com");
 // console.log(map.get("email"));
