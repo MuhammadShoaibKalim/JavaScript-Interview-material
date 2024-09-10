@@ -8,7 +8,7 @@
 let arr1 = [1,2,3,4,5];
 
 for(let i of arr1){
-   // console.log(arr1[i]);  
+    console.log(arr1[i]);  
 }  
 //printing start from not 0 index
 
